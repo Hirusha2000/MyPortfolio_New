@@ -1231,11 +1231,11 @@ main > section:nth-child(5) > section:nth-child(2) > section:first-child {
     margin-left: 70px;
     margin-right: 70px;
     height: 600px;
-    display: grid;
+/*    display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
     gap: 9px;
-}
+}*/
 
 /**
 * customized all divs
