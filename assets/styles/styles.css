@@ -1199,7 +1199,7 @@ main > section:nth-child(5) > section:first-child > h1::before {
     border-radius: 2px;
 }
 
-main > section:nth-child(5) > section:first-child > h1::after {
+/*main > section:nth-child(5) > section:first-child > h1::after {
     content: "";
     position: absolute;
     display: block;
@@ -1209,7 +1209,7 @@ main > section:nth-child(5) > section:first-child > h1::after {
     bottom: 0;
     left: calc(50% - 20px);
     border-radius: 3px;
-}
+}*/
 
 /**
 * added section positions gallery section
