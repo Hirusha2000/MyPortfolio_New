@@ -1189,17 +1189,17 @@ main > section:nth-child(5) > section:first-child > h1 {
 */
 main > section:nth-child(5) > section:first-child > h1::before {
     content: "";
-    position: absolute;
+/*    position: absolute;
     display: block;
     width: 120px;
     height: 2px;
     background: #ddd;
     bottom: 2px;
     left: calc(50% - 60px);
-    border-radius: 2px;
+    border-radius: 2px;*/
 }
 
-/*main > section:nth-child(5) > section:first-child > h1::after {
+main > section:nth-child(5) > section:first-child > h1::after {
     content: "";
     position: absolute;
     display: block;
@@ -1209,7 +1209,7 @@ main > section:nth-child(5) > section:first-child > h1::before {
     bottom: 0;
     left: calc(50% - 20px);
     border-radius: 3px;
-}*/
+}
 
 /**
 * added section positions gallery section
