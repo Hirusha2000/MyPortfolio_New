@@ -1136,6 +1136,7 @@ main > section:nth-child(4) > div:nth-child(10) {
     width: 100px;
 }
 
+/*
 @keyframes slider-animation {
     0% {
         transform: translateX(0);
@@ -1144,6 +1145,7 @@ main > section:nth-child(4) > div:nth-child(10) {
         transform: translateX(-100%);
     }
 }
+*/
 
 /*  gallery section
 ========================================================================== */
