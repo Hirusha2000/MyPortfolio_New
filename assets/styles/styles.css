@@ -1084,7 +1084,7 @@ main > section:nth-child(4) > div:nth-child(10) {
 #workIcon {
     padding-right: 9px;
 }
-/*
+
 #lan-heading {
     display: flex;
     justify-content: center;
@@ -1099,7 +1099,7 @@ main > section:nth-child(4) > div:nth-child(10) {
     cursor: pointer;
     align-items: center;
     display: flex;
-    position: relative;*/
+    position: relative;
 }
 
 #lanIcon {
