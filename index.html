@@ -17,6 +17,59 @@
     <meta name="owner" content="Hirusha Geeganage">
     <meta name="viewport" content="width=device-width initial-scale=1 maximum scale=2">
     <meta name="theme-color" content="GREEN">
+
+
+    <style>
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .tree {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .branch {
+            position: relative;
+            width: 100%;
+            max-width: 200px;
+            padding: 20px;
+            background-color: #3498db;
+            border-radius: 5px;
+            margin: 10px;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease;
+        }
+
+        .branch:hover {
+            background-color: #2c3e50;
+        }
+
+        .content {
+            text-align: center;
+            color: #fff;
+            font-family: 'Ubuntu', sans-serif;
+            font-style: normal;
+        }
+
+        .branch::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-left: 2px solid #fff;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <!--sectioning root-->
@@ -181,23 +234,26 @@
                     </div>
                     <div>
 
-
                         <a href="assets/img/HirushaGeeganage%5BGDSE62%5D_CV.pdf" download style="text-decoration: none;">
-                            <button style="background-color: #4CAF50; /* Green */
-                border: none;
-                color: white;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-                border-radius: 4px;">
+                            <button id="cusb" style="background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;"
+                                    onmouseover="this.style.backgroundColor='#3dc633'"
+                                    onmouseout="this.style.backgroundColor='#8cc48c'">
+
                                 DOWNLOAD CV
                                 <div style="display: inline-block; margin-left: 10px;"><i class="fa-solid fa-download"></i></div>
                             </button>
                         </a>
+
 
 
 
@@ -309,6 +365,42 @@
                 Work
             </div>
         </section>
+
+        <div class="container">
+            <h1 style="font-family: Ubuntu">Here is my journey so far</h1>
+            <p>Your introduction or tagline goes here.</p>
+
+            <div class="tree">
+                <div class="branch">
+                    <div class="content">
+                        <h2>OLS</h2>
+                        <p>Your Old Learning Steps</p>
+                    </div>
+                </div>
+
+                <div class="branch">
+                    <div class="content">
+                        <h2>ALS</h2>
+                        <p>Your Advanced Learning Steps</p>
+                    </div>
+                </div>
+
+                <div class="branch">
+                    <div class="content">
+                        <h2>Diploma</h2>
+                        <p>Details about your diploma education</p>
+                    </div>
+                </div>
+
+                <div class="branch">
+                    <div class="content">
+                        <h2>Degree</h2>
+                        <p>Details about your degree education</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <div id="skillsCube">
             <!--            <img src="assets/img/Skills%20Section%20Cube%201.svg">-->
