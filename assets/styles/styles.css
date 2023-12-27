@@ -1226,7 +1226,7 @@ main > section:nth-child(5) > section:nth-child(2) {
 /**
 * added section display type grid
 */
-/*main > section:nth-child(5) > section:nth-child(2) > section:first-child {
+main > section:nth-child(5) > section:nth-child(2) > section:first-child {
     width: 1100px;
     margin-left: 70px;
     margin-right: 70px;
@@ -1235,7 +1235,7 @@ main > section:nth-child(5) > section:nth-child(2) {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
     gap: 9px;
-}*/
+}
 
 /**
 * customized all divs
